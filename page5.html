@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title> 64312901 บัณฑิตา องศ์บุญ </title> 
+</head>
+<body>
+    <body background="p5.jpg"></body>
+    <center><h2>โปรแกรมคำนวนเกรดวิชา Information Systems Management in Organizations</h2><br>
+
+        <form id="form1" name="form1" method="post">
+            กรุณาใส่คะแนน :
+        <input name="txtName" type="text" id="txtName" />
+        <input type="submit" name="Submit" 
+        value="OK" onclick="showData()"/>
+        </form>
+    </center>
+    <script>
+    function showData()
+        {
+        score=document.form1.txtName.value;
+        if(score>=80)
+            {
+                alert("เกรด A");
+            }
+        else if(score>=70) 
+            {
+            alert("เกรด B");
+            }
+        else if(score>=60) 
+            {
+            alert("เกรด C");
+            } 
+        else if(score>=50) 
+            {
+            alert("เกรด D");
+            }
+            else
+            {
+            alert("พยายามอีกหน่อยนะคุณได้เกรด F");
+            }
+        }
+    </script>
+</body>
+</html>
