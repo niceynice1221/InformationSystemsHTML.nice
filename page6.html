@@ -1,0 +1,26 @@
+<html>
+<body>
+<center>
+<body background ="p6.jpg"></body>
+<form id="form1" name="form1" method="post" action="">
+Username :    
+<input name="txtNum1" type="text" id="txtNum1" /><br />
+password :
+<input name="txtNum2" type="password" id="txtNum2" /><br /></form>
+<input type="submit" name="Submit" value="Click" onclick="add()"/>
+</form>
+</center>
+<script>
+function add(){
+    alert("ยินดีต้อนรับ");
+b = eval(document.form1.txtNum2.value);
+if(b==1234){
+    alert("รหัสผ่านถูกต้อง");
+    }
+else{
+    alert("รหัสผ่านไม่ถูกต้อง ใส่ไหม")
+    }
+}
+</script>
+</body>
+</html>
